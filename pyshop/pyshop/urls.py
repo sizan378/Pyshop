@@ -32,6 +32,13 @@ urlpatterns = [
 
     # apps urls
     path('api/v1/search/', include('search.urls')),
+    path('api/v1/attribute/', include('attribute.urls')),
+    path('api/v1/attribute-value/', include('attribute_value.urls')),
+    path('api/v1/category/', include('category.urls')),
+    path('api/v1/image/', include('image.urls')),
+    path('api/v1/inventory/', include('inventory.urls')),
+    path('api/v1/product/', include('product.urls')),
+    path('api/v1/stock-control/', include('stock_control.urls')),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
