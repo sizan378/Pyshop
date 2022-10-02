@@ -43,6 +43,13 @@ INSTALLED_APPS = [
     # apps name
     'shop',
     'search',
+    'attribute',
+    'attribute_value',
+    'category',
+    'image',
+    'inventory',
+    'product',
+    'stock_control',
 ]
 
 MIDDLEWARE = [
